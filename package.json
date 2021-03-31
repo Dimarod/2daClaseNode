@@ -1,0 +1,42 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "curso de node de platzi",
+  "main": "index.js",
+  "scripts": {
+    "conceptos": "node src/conceptos/monohilos.js",
+    "entorno": "node src/conceptos/entorno.js",
+    "callback": "node src/async/callback.js",
+    "promise": "node src/async/promise.js",
+    "await": "node src/async/await.js",
+    "global": "node src/modules/globals.js",
+    "fs": "node src/modules/fs.js",
+    "consola": "node src/modules/consola.js",
+    "errores": "node src/modules/errores.js",
+    "proceso:hijo": "node src/modules/procesosHijo.js",
+    "server": "node src/modules/http.js",
+    "os": "node src/modules/os.js",
+    "process": "node src/modules/process.js",
+    "modules": "node src/package/index.js",
+    "modules:ecma": "node src/package/es6/index.mjs",
+    "bcrypt": "node src/modulosUtiles/bcrypt.js",
+    "moment": "node src/modulosUtiles/moment.js",
+    "sharp": "node src/modulosUtiles/sharp.js",
+    "buffer": "node src/memoria/buffer.js",
+    "stream": "node src/memoria/stream.js",
+    "bench": "node src/trucos/bench.js",
+    "errFirst": "node src/trucos/errFirst.js",
+    "scrapping": "node src/herramientas/scrapping/index.js"
+  },
+  "keywords": [
+    "node",
+    "hilos",
+    "modulos"
+  ],
+  "author": "Diego Maestre",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "puppeteer": "^5.5.0"
+  }
+}

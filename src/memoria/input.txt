@@ -1,0 +1,5 @@
+Soy un
+archivo
+para probar 
+la creacion de 
+stream
